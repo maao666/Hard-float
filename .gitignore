@@ -1,0 +1,21 @@
+project/target
+target
+ucli.key
+.*.swp
+test-*/
+test-*.log
+chisel3*
+firrtl*
+.ivy2
+build
+test-*.vcd
+
+# These come from building SoftFloat/TestFloat
+/berkeley-*float-3
+/testfloat_gen
+
+.bloop
+test_run_dir
+.metals
+.vscode
+.DS_Store
